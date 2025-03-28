@@ -7,4 +7,5 @@ what: >
 why: >
   This is to ensure that the thing that you merge in still works with you code;
   that the main branch is always functional
+when: Mid-Development
 ---

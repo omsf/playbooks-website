@@ -6,7 +6,7 @@ what: >
   A CI provider is the service/environment for how you will run CI.
 why: >
   CI helps to ensure that you are able to test your code often and choosing the
-  right provider ensures that you are able to ???
+  right provider ensures that you are able to effectively collaborate when developing software.
 when: Mid-Development
 implementations:
   - desc: "[GitHub Actions](https://docs.github.com/actions)"

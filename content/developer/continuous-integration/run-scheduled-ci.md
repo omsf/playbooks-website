@@ -7,4 +7,5 @@ what: >
 why: >
   This ensures that changes in your dependencies that break your code are
   caught early, even if you aren’t actively working on your code.
+when: Mid-Development
 ---

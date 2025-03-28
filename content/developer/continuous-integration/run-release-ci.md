@@ -7,4 +7,5 @@ what: >
 why: >
   Use this to ensure that your code runs on a release. This helps to also
   define a tested environment that works for those who want to run your code.
+when: Pre-Release
 ---
