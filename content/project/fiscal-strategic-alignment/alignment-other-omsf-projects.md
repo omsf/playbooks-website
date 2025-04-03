@@ -1,0 +1,10 @@
+---
+layout: practice
+weight: 2
+title: Alignment with other OMSF projects
+what: >
+      You should design your project to cooperate, rather than compete, with [existing OMSF projects](omsf.io/programs/projects)
+why: OMSF has a responsibility to support all members of all hosted projects, and maximizing their funding support requires avoiding competitive duplication of effort. We at OMSF also dream of an ecosystem of interoperable software products.
+importance: High
+when: Pre-sponsorship (preferably pre-launch)
+---
