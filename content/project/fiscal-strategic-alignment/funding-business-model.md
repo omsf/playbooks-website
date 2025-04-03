@@ -4,6 +4,8 @@ weight: 2
 title: Funding or business model
 what: Your project needs a funding source, and the nature of your funding source will have an impact on your governance structure and many other aspects of your project.
 why: A funding source shapes a business model by determining how resources are allocated, revenue is generated, and long-term sustainability is maintained.
+importance: Existential
+when: Pre-launch
 implementations:
  - desc: Industry consortium
   advantages:
@@ -21,6 +23,4 @@ implementations:
    - Can be useful for bridging or extending an existing project
   disadvantages:
    - Often less predictable and shorter grant periods but they sometimes fund maintenance efforts.
-importance: Existential
-when: Pre-launch
 ---
