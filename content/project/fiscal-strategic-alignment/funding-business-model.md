@@ -6,9 +6,10 @@ what: Your project needs a funding source, and the nature of your funding source
 why: A funding source shapes a business model by determining how resources are allocated, revenue is generated, and long-term sustainability is maintained.
 implementations: >
  - desc: "Industry consortium"
-  - Gather motivated industrial partners to pool funds in a pre-competitive consortium
-  - Partners may see an unmet need for software to aid in existing programs, or be frustrated with proprietary software solutions
-  - Pairs well with [advisory board / governing board governance structure]()
+  advantages:
+   - Gather motivated industrial partners to pool funds in a pre-competitive consortium
+   - Partners may see an unmet need for software to aid in existing programs, or be frustrated with proprietary software solutions
+   - Pairs well with [advisory board / governing board governance structure]()
  - desc: "Government funding"
   advantages:
    - Some grant programs can be large enough to fund multiple staff members over several years
