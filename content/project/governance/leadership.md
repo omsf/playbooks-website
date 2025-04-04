@@ -1,25 +1,29 @@
 ---
 layout: practice
-weight: <INTEGER FOR ORDERING, OPTIONAL>
-title: <STRING, REQUIRED>
+weight: 5
+title: Leadership
 what: >
-  <STRING, REQUIRED>
-why: >
-  <STRING, REQUIRED>
-when: <STRING, REQUIRED>
-challenges:
-  - <OPTIONAL>
-  - <LIST OF MARKDOWN STRINGS>
+      Successful execution of a project requires operational leadership that can enact the will of the governing board, including receiving delegated decision-making authority
 implementations:
-  - <OPTIONAL; IF INCLUDED, USE A LIST OF THE FOLLOWING FORMAT>
-  - desc: <STRING, REQUIRED>
+  - desc: Executive Committee
+    - Recommended to be 3 members
+    - Appointed by governing board (usually members of the advisory board)
+    - Acts as a smaller, more nimble governing board
     advantages:
-      - <OPTIONAL LIST>
+      - maximizes engagement of funding partners
     disadvantages:
-      - <OPTIONAL LIST>
-recommendation: <OPTIONAL>
-note: <OPTIONAL>
-see_also:
-  - <LIST OF MARKDOWN STRINGS>
+      - very large commitment from volunteers
+   - desc: Project Director
+     - One person who takes responsibility for carrying out the will of the governing board
+     - May be a full-time staff member or volunteer (e.g. member of the governing board)
+     advantages:
+	- Clear lines of authority
+     disadvantages:
+      - Challenging to find an experienced, trustworthy person to fill the role
+    - desc: Leadership Team
+     - Technical leads and project manager share responsibility for the project
+     advantages:
+      - distributes responsibility, easier to fill these roles
+     disadvantages:
+      - Requires very careful structuring to avoid diffusing responsibility (no one knows who is responsible for anything) instead of distributing it (everyone knows who is responsible for each part)
 ---
-<ADDITIONAL CONTENT HERE>

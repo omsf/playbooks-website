@@ -1,25 +1,15 @@
 ---
 layout: practice
-weight: <INTEGER FOR ORDERING, OPTIONAL>
-title: <STRING, REQUIRED>
+weight: 4
+title: Making Decisions
 what: >
-  <STRING, REQUIRED>
+      - The governance structure needs a process for making decisions, defined in the bylaws
 why: >
-  <STRING, REQUIRED>
-when: <STRING, REQUIRED>
-challenges:
-  - <OPTIONAL>
-  - <LIST OF MARKDOWN STRINGS>
+     - Decision process should include a shared understanding of which decisions must be made by formal governance and which are delegated to operational leadership
 implementations:
-  - <OPTIONAL; IF INCLUDED, USE A LIST OF THE FOLLOWING FORMAT>
-  - desc: <STRING, REQUIRED>
+  - desc: Decision making in the advisory board / governing board model
     advantages:
-      - <OPTIONAL LIST>
-    disadvantages:
-      - <OPTIONAL LIST>
-recommendation: <OPTIONAL>
-note: <OPTIONAL>
-see_also:
-  - <LIST OF MARKDOWN STRINGS>
+      - The advisory board receives regular updates from the project and is presented with all major decisions for their input
+      - Once the input of the advisory board has been integrated, a set of options are presented to the governing board for approval
 ---
-<ADDITIONAL CONTENT HERE>
+
