@@ -5,11 +5,71 @@
     --link-hover: #2c5282;
     --text-color: #000000;
 }
-
 :root[class~="dark"] {
     --striping-color: #2b2b2b;
     --text-color: #ffffff;
 }
+
+/* Agathe */
+
+:root {
+    --primary-hue: 160;
+    --primary-saturation: 67%;
+    --primary-lightness: 86%;
+    --color-body: black;
+    --color-fond: #f6f6f6;
+    --color-fond-dark: #FAF9F5;
+    --color-une: #b5f2e1; /* avant : #9be5d7*/
+    --color-une-dark: #62978D;
+    --color-une-fade: #EBFAF7 ; /* pour le bandeau gauche  -- avant : */
+    --color-deux: var(--color-une);
+    --color-deux-fade: #e4fff6; /* pour le sub-wrapper -- avant : #D5FFF5 */
+    --color-deux-dark: var(--color-une-dark);
+    --color-trois: #ffffbbef;
+    --font-titre: "Barlow", sans-serif;
+    --font-texte: "Barlow", monospace;
+}
+
+  @font-face {
+    font-family: "Barlow";
+    src: url("../fonts/Barlow-Regular.ttf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Barlow";
+    src: url("../fonts/Barlow-Italic.ttf") format("opentype");
+    font-style: italic;
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Barlow";
+    src: url("../fonts/Barlow-SemiBold.ttf") format("opentype");
+    font-style: normal;
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: "Barlow";
+    src: url("../fonts/Barlow-SemiBoldItalic.ttf") format("opentype");
+    font-style: italic;
+    font-weight: 600;
+  }
+
+h1, h2, h3 {
+    font-family: var(--font-titre);
+}
+
+body {
+    font-family: var(--font-texte);
+    color: var(--color-body);
+    /*background-color: var(--color-fond);*/
+}
+
+
+
+
+
+/* End Agathe */
 
 
 h1 {
