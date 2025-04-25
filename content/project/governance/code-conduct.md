@@ -9,9 +9,9 @@ why: >
      - What protects community members from harm is not the code of conduct itself, but how the community enforces it. 
      - A code of conduct may not change anyone’s behavior, but an expectation that the code will be enforced can dissuade people with harmful behavior from participating in the community.
 recommendation: >
-		A code of conduct should be the governing document of some enforcement body, such as a safety or inclusion committee. The code of conduct should give the enforcement body a clear guide to taking swift, decisive action to prevent harm. It should:
-		- Define unacceptable behavior
-		- Provide a clear process for removing individuals from the community to limit the harm they can cause
+      A code of conduct should be the governing document of some enforcement body, such as a safety or inclusion committee. The code of conduct should give the enforcement body a clear guide to taking swift, decisive action to prevent harm. It must:
+       - Define unacceptable behavior (because otherwise it can't be enforced)
+       - Provide a clear process for handling individuals who cause harm to the community
 note: Resources:
  - OMSF CoC: https://www.notion.so/omsf/Code-of-Conduct-99f708d9717f4c09aeae069b8319bee4
  - Rosetta Commons CoC: https://rosettacommons.org/about/policies/
