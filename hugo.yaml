@@ -34,13 +34,13 @@ menu:
         teaser: >
           Discover our recommendations for developing benchmarks.
 
-    #- name: Projects
-      #pageRef: /projects
-      #weight: 3
-      #params:
-        #type: playbook
-        #teaser: >
-          #Discover our recommendations for project management.
+    - name: Project
+      pageRef: /project
+      weight: 3
+      params:
+        type: playbook
+        teaser: >
+          Discover our recommendations for project management.
           
     - name: Search
       weight: 100
