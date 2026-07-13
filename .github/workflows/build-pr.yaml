@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - main
+      - aws-playbook  # TODO: remove when AWS playbook merges to main
 
 jobs:
   build:

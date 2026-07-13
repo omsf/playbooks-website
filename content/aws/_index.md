@@ -1,7 +1,7 @@
 ---
 title: AWS Playbook
 layout: playbook
-weight: 5
+weight: 6
 ---
 
 ## Introduction
