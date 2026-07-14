@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - main
+      - cloudflare-playbook # TODO: remove when Cloudflare playbook merges to main
 
 jobs:
   build:
