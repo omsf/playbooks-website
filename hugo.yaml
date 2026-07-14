@@ -50,6 +50,14 @@ menu:
           Explore our resources for creating amazing documentation
           for both your developers and users.
 
+    - name: Cloudflare
+      pageRef: /cloudflare
+      weight: 7 # This will go after the AWS playbook when merged
+      params:
+        type: playbook
+        teaser: >
+          Learn how we manage domains and websites with Cloudflare
+
     - name: Search
       weight: 100
       params:
