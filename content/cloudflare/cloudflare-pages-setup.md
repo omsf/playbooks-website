@@ -1,6 +1,6 @@
 ---
 layout: topic
-title: Project Setup
+title: Cloudflare Pages Setup
 weight: 2
 ---
 1. Go to the [Cloudflare dashboard](https://dash.cloudflare.com) and select the
@@ -12,4 +12,4 @@ weight: 2
 6. Provide a name for the project. This must be unique within all of
    Cloudflare, and the subdomain $PROJECT_NAME.pages.dev will be used.
 7. Click "Create project". At this point, your project has been created, but
-   has no content deployed. Deploy content using the tools in this repo!
+   has no content deployed. Deploy content by either uploading assets or using [OMSF static-site-tools](https://github.com/omsf/static-site-tools)!
