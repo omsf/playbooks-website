@@ -1,6 +1,7 @@
 ---
 layout: topic
 title: Account Setup
+weight: 1
 ---
 We recommend creating a project-level Cloudflare account to host Cloudflare
 Pages projects, and using individual user accounts for development and debug.
