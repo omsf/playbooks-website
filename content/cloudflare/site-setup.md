@@ -3,8 +3,6 @@ layout: topic
 title: Project Setup
 weight: 2
 ---
-## Project Setup
-
 1. Go to the [Cloudflare dashboard](https://dash.cloudflare.com) and select the
    account that should own the project.
 2. Click on "Workers and Pages" in the left sidebar.
