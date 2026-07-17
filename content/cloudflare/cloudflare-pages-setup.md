@@ -10,6 +10,6 @@ weight: 2
 4. Select the "Getting Started" at the bottom of the dialogue next to "Looking to deploy Pages?". 
 5. Click "Get started" under "Drag and drop your files".
 6. Provide a name for the project. This must be unique within all of
-   Cloudflare, and the subdomain $PROJECT_NAME.pages.dev will be used.
+6. Provide a name for the project. The subdomain ${PROJECT_NAME}-${suffix}.pages.dev will be used. (without `-${suffix}` if your name is unique within Cloudflare).
 7. Click "Create project". At this point, your project has been created, but
    has no content deployed. Deploy content by either uploading assets or using [OMSF static-site-tools](https://github.com/omsf/static-site-tools)!
