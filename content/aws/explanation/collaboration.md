@@ -27,7 +27,7 @@ For more equally shared projects, it is probably a small amount easier to manage
 
 ## How to set up the IAM role?
 
-The steps for providing an access to a role for an external AWS IAM Identity Center account are described in [a how-to on that topic](../how-tos/allow-external-user-assume-role.md).
+The steps for providing an access to a role for an external AWS IAM Identity Center account are described in [a how-to on that topic](../how-tos/allow-external-user-assume-role).
 If either the shared account is in its own AWS Organization, or if only the external team needs to access resources (e.g., the internal team is paying while the external team is doing the work), then this is all you need.
 
 If both projects will need access to resources in the shared account, then you have a couple options:
