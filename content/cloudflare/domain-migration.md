@@ -21,3 +21,6 @@ However it does not cover how you set this up for popular hosting services. See 
 Use the following to migrate from common providers:
 - [Squarspace](https://support.squarespace.com/hc/en-us/articles/205812338-Transferring-a-domain-away-from-Squarespace)
 - [GoDaddy](https://www.godaddy.com/en/help/transfer-my-domain-away-from-godaddy-3560)
+
+This process can take days to complete but is largely hands off. If you have to migrate multiple domains, my advice is to do them one
+at a time rather than all at once. Additionally, migrating all of your domains for an organization into a single Cloudflare organizational account is preferable.
