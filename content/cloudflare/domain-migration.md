@@ -4,21 +4,37 @@ title: Migrating Domains to Cloudflare
 weight: 3
 ---
 ## Concepts
-Cloudflare allows for users to setup their domains in two different ways, managed and owned.
-When a domain is managed by Cloudflare it means the control of all DNS records is being down by Cloudflare, but you still pay your registrar for your domain.
-This means that if you buy your domain at something like Squarespace, you will pay them for the ownership of your domain, but update and add records in Cloudflare
 
-However, if you can completely migrate your domain to be owned by Cloudflare.
-This allows for Cloudflare to manage the domain but also they will be who you pay for registration.
-This tutorial aims to explain how to do both of these.
+## DNS
+DNS or Domain Name System is how domain names get translated into IP addresses. 
+When you buy a domain, you buy the ability to set those IP addresses.
+Squarspace, GoDaddy, and Cloudflare are all examples of the registrars 
+For a technical deep dive, see [this article from Cloudflare](https://www.cloudflare.com/learning/dns/what-is-dns/).
 
-## Managing your domain with Cloudflare
+## Registrar
+A registrar is who you buy a domain from.
+Some examples of this are Squarspace, GoDaddy, and Cloudflare.
+They are responsible for your billing.
+
+## Cloudflare Management
+Cloudflare supports two approaches to domain configuration: **managed** and **owned**.
+Under the *managed* approach, Cloudflare handles all of your DNS records while your domain registration remains with your existing registrar. 
+If you purchased your domain through a different registrar, such as Squarespace, you would continue to pay that registrar for the domain itself while managing your DNS records, adding, and updating them as needed, within Cloudflare.
+Under the *owned* approach, you migrate your domain registration to Cloudflare directly. 
+In this configuration, Cloudflare serves as both your DNS provider and your registrar, meaning Cloudflare handles domain registration and billing.
+This tutorial covers how to configure both approaches.
+
+---
+
+## Management and Migration
+
+## Managing Your Domain with Cloudflare
 This process is straightforward and can be found using [Cloudflare's docs](https://developers.cloudflare.com/dns/zone-setups/full-setup/setup/).
 
-## Migrating your domain to Cloudflare
+## Migrating Your Domain to Cloudflare
 This process is documented on [Cloudflare's docs](https://developers.cloudflare.com/registrar/get-started/transfer-domain-to-cloudflare/).
-However it does not cover how you set this up for popular hosting services. See below for how to handle this.
-Use the following to migrate from common providers:
+However, it does not cover how you set this up for popular registrars. See below for how to handle this.
+Use the following to migrate from common registrars:
 - [Squarspace](https://support.squarespace.com/hc/en-us/articles/205812338-Transferring-a-domain-away-from-Squarespace)
 - [GoDaddy](https://www.godaddy.com/en/help/transfer-my-domain-away-from-godaddy-3560)
 
