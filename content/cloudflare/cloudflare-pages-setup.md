@@ -13,3 +13,7 @@ weight: 2
 6. Provide a name for the project. The subdomain ${PROJECT_NAME}-${suffix}.pages.dev will be used. (without `-${suffix}` if your name is unique within Cloudflare).
 7. Click "Create project". At this point, your project has been created, but
    has no content deployed. Deploy content by either uploading assets or using [OMSF static-site-tools](https://github.com/omsf/static-site-tools)!
+
+## Advanced Setup Using Terraform/OpenTofu
+We have a Terraform/OpenTofu module to complete this process with code. 
+For more information, see [here](https://github.com/omsf/static-site-tools#automatically-using-opentofuterraform).
