@@ -5,18 +5,18 @@ weight: 3
 ---
 ## Concepts
 
-## DNS
+### DNS
 DNS or Domain Name System is how domain names get translated into IP addresses. 
 When you buy a domain, you buy the ability to set those IP addresses.
 Squarspace, GoDaddy, and Cloudflare are all examples of the registrars 
 For a technical deep dive, see [this article from Cloudflare](https://www.cloudflare.com/learning/dns/what-is-dns/).
 
-## Registrar
+### Registrar
 A registrar is who you buy a domain from.
 Some examples of this are Squarspace, GoDaddy, and Cloudflare.
 They are responsible for your billing.
 
-## Cloudflare Management
+### Cloudflare Management
 Cloudflare supports two approaches to domain configuration: **managed** and **owned**.
 Under the *managed* approach, Cloudflare handles all of your DNS records while your domain registration remains with your existing registrar. 
 If you purchased your domain through a different registrar, such as Squarespace, you would continue to pay that registrar for the domain itself while managing your DNS records, adding, and updating them as needed, within Cloudflare.
@@ -38,5 +38,6 @@ Use the following to migrate from common registrars:
 - [Squarspace](https://support.squarespace.com/hc/en-us/articles/205812338-Transferring-a-domain-away-from-Squarespace)
 - [GoDaddy](https://www.godaddy.com/en/help/transfer-my-domain-away-from-godaddy-3560)
 
-This process can take days to complete but is largely hands off. If you have to migrate multiple domains, my advice is to do them one
-at a time rather than all at once. Additionally, migrating all of your domains for an organization into a single Cloudflare organizational account is preferable.
+This process can take days to complete but is largely hands off. 
+If you have to migrate multiple domains, my advice is to do them one at a time rather than all at once.
+Additionally, migrating all of your domains for an organization into a single Cloudflare organizational account is preferable.
