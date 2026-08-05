@@ -8,12 +8,12 @@ weight: 3
 ### DNS
 DNS or Domain Name System is how domain names get translated into IP addresses. 
 When you buy a domain, you buy the ability to set those IP addresses.
-Squarspace, GoDaddy, and Cloudflare are all examples of the registrars 
+Squarespace, GoDaddy, and Cloudflare are all examples of registrars.
 For a technical deep dive, see [this article from Cloudflare](https://www.cloudflare.com/learning/dns/what-is-dns/).
 
 ### Registrar
 A registrar is who you buy a domain from.
-Some examples of this are Squarspace, GoDaddy, and Cloudflare.
+Some examples of this are Squarespace, GoDaddy, and Cloudflare.
 They are responsible for your billing.
 
 ### Cloudflare Management
@@ -34,7 +34,7 @@ This process is straightforward and can be found using [Cloudflare's docs](https
 This process is documented on [Cloudflare's docs](https://developers.cloudflare.com/registrar/get-started/transfer-domain-to-cloudflare/).
 However, it does not cover how you set this up for popular registrars. See below for how to handle this.
 Use the following to migrate from common registrars:
-- [Squarspace](https://support.squarespace.com/hc/en-us/articles/205812338-Transferring-a-domain-away-from-Squarespace)
+- [Squarespace](https://support.squarespace.com/hc/en-us/articles/205812338-Transferring-a-domain-away-from-Squarespace)
 - [GoDaddy](https://www.godaddy.com/en/help/transfer-my-domain-away-from-godaddy-3560)
 
 This process can take days to complete but is largely hands off. 
