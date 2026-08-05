@@ -24,14 +24,13 @@ Under the *owned* approach, you migrate your domain registration to Cloudflare d
 In this configuration, Cloudflare serves as both your DNS provider and your registrar, meaning Cloudflare handles domain registration and billing.
 This tutorial covers how to configure both approaches.
 
----
 
 ## Management and Migration
 
-## Managing Your Domain with Cloudflare
+### Managing Your Domain with Cloudflare
 This process is straightforward and can be found using [Cloudflare's docs](https://developers.cloudflare.com/dns/zone-setups/full-setup/setup/).
 
-## Migrating Your Domain to Cloudflare
+### Migrating Your Domain to Cloudflare
 This process is documented on [Cloudflare's docs](https://developers.cloudflare.com/registrar/get-started/transfer-domain-to-cloudflare/).
 However, it does not cover how you set this up for popular registrars. See below for how to handle this.
 Use the following to migrate from common registrars:
