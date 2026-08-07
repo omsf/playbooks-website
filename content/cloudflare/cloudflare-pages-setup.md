@@ -9,11 +9,12 @@ weight: 2
 3. Click the blue "Create Application" button at the top.
 4. Select the "Getting Started" at the bottom of the dialogue next to "Looking to deploy Pages?". 
 5. Click "Get started" under "Drag and drop your files".
-6. Provide a name for the project. This must be unique within all of
-6. Provide a name for the project. The subdomain ${PROJECT_NAME}-${suffix}.pages.dev will be used. (without `-${suffix}` if your name is unique within Cloudflare).
+6. Provide a name for the project. The subdomain ${PROJECT_NAME}-${suffix}.pages.dev will be used (without `-${suffix}` if your name is unique within Cloudflare).
 7. Click "Create project". At this point, your project has been created, but
    has no content deployed. Deploy content by either uploading assets or using [OMSF static-site-tools](https://github.com/omsf/static-site-tools)!
 
 ## Advanced Setup Using Terraform/OpenTofu
-We have a Terraform/OpenTofu module to complete this process with code. 
-For more information, see [here](https://github.com/omsf/static-site-tools#automatically-using-opentofuterraform).
+We have a [Terraform/OpenTofu module](https://github.com/omsf/static-site-tools/tree/main/modules/cloudflare_pages) to complete this process with code. 
+This module is part of a larger OMSF tool called [`static-site-tools`](https://github.com/omsf/static-site-tools/tree/main).
+For more information on how it is used, see [here](https://github.com/omsf/static-site-tools#automatically-using-opentofuterraform).
+`static-site-tools` is used to automate common static site builders and provide a path for multiuser preview URLs and is our recommended workflow for building static sites.
