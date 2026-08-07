@@ -24,19 +24,28 @@ Under the *owned* approach, you migrate your domain registration to Cloudflare d
 In this configuration, Cloudflare serves as both your DNS provider and your registrar, meaning Cloudflare handles domain registration and billing.
 This tutorial covers how to configure both approaches.
 
-
 ## Management and Migration
 
-### Managing Your Domain with Cloudflare
-This process is straightforward and can be found using [Cloudflare's docs](https://developers.cloudflare.com/dns/zone-setups/full-setup/setup/).
+The general process for handling a full migration as follows:
+1. Back up your records from your current registrar
+2. Change your nameservers to Cloudflare (congrats your domain is now managed by Cloudflare)
+3. Transfer your domain registration and pay for domain registration cost
+The documentation for this process is found [here](https://developers.cloudflare.com/registrar/get-started/transfer-domain-to-cloudflare/)
 
-### Migrating Your Domain to Cloudflare
-This process is documented on [Cloudflare's docs](https://developers.cloudflare.com/registrar/get-started/transfer-domain-to-cloudflare/).
-However, it does not cover how you set this up for popular registrars. See below for how to handle this.
-Use the following to migrate from common registrars:
-- [Squarespace](https://support.squarespace.com/hc/en-us/articles/205812338-Transferring-a-domain-away-from-Squarespace)
+### 1. Back up Your Records
+Some providers provide a way to download your records as a file for you to import.
+However, this is not always the case, a screenshot can be helpful here.
+
+### 2. Change Your Nameservers to Cloudflare
+Use the following to migrate your nameservers [https://developers.cloudflare.com/dns/zone-setups/full-setup/setup/](https://developers.cloudflare.com/dns/zone-setups/full-setup/setup/).
+
+### 3. Transfer Your Domain Registration
+This process is captured [here](https://developers.cloudflare.com/registrar/get-started/transfer-domain-to-cloudflare/#2-transfer-your-registration). 
+However, it does not include how to handle a specific registrar.
+Here are a few examples:
+- [Squarspace](https://support.squarespace.com/hc/en-us/articles/205812338-Transferring-a-domain-away-from-Squarespace)
 - [GoDaddy](https://www.godaddy.com/en/help/transfer-my-domain-away-from-godaddy-3560)
 
-This process can take days to complete but is largely hands off. 
+This process can take days to complete but is largely hands off and will not create downtime because your domain is already managed by Cloudflare. 
 If you have to migrate multiple domains, my advice is to do them one at a time rather than all at once.
 Additionally, migrating all of your domains for an organization into a single Cloudflare organizational account is preferable.
