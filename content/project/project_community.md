@@ -61,7 +61,7 @@ The purpose of a CoC is to empower the community to protect its own members from
 What protects community members from harm is not the code of conduct itself, but how the community enforces it. A code of conduct may not change anyone’s behavior, but an expectation that the code will be enforced can dissuade people with harmful behavior from participating in the community.
 The most effective way to enforce a CoC is to establish it as the governing document of some enforcement body, such as a safety or inclusion committee. The code of conduct should give the enforcement body a clear guide to taking swift, decisive action to prevent harm. It must:
 * Define unacceptable behavior (because otherwise it can't be enforced)
-* Provide a clear process for handling individuals that cause hard to the community and protect the community from harm. 
+* Provide a clear process for handling individuals that cause harm to the community and protect the community from harm. 
 
 ### Resources:
 
