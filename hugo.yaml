@@ -50,6 +50,14 @@ menu:
           Explore our resources for creating amazing documentation
           for both your developers and users.
 
+    - name: AWS
+      pageRef: /aws
+      weight: 6
+      params:
+        type: playbook
+        teaser: >
+          Learn how we manage AWS accounts and resources.
+
     - name: Search
       weight: 100
       params:
