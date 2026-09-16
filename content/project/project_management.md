@@ -32,7 +32,7 @@ The Driver assigned to a particular subproject is usually tasked with proposing 
 
 ### Defining scope
 
-There are a few different frameworks for defining scope, from simplest to must complex:
+There are a few different frameworks for defining scope, from simplest to most complex:
 * Minimum Viable Product (MVP): An important concept in Agile software development, the MVP is the smallest set of features or capabilities that can be given to users. In this framework, no additional features are included until required based on user feedback.
 * Must-have, nice-to-have, not-in-scope: This is the framework OMSF projects use most commonly to discuss scope. The must-have scope corresponds closely to the MVP, but nice-to-have items are identified in advance and are only included if they don't slow down progress toward the must-have items. In our experience, defining not-in-scope is crucial both to developers, to keep them focused, and to stakeholders, to give them a chance to argue for why their own feature should be included.
 * MoSCoW: The MoSCoW framework defines Must have, Should have, Could have, and Won't have. It adds one more level of scope. Some of our projects have attempted to use this scope framework, but have found it less helpful than the three-tier definition.
@@ -41,7 +41,7 @@ There are a few different frameworks for defining scope, from simplest to must c
 
 To follow the roadmap, the project manager must make some estimate of the amount of effort required to deliver each subproject. All effort estimates are wrong, but some are more useful than others. The two useful techniques that we have used in OMSF projects are
 * T-shirt sizes: Most work tasks are defined as Small, Medium, or Large, where the amount of work that these sizes map onto are completely context-dependent (as with T-shirts). If necessary, work items can also be estimated as X-Small or X-Large (as with T-shirts).
-* Story points: An arbitrary unit of developer time used to measure how complex a task is. We usually approximate one story point as 30 minutes of developer effort, but it is important not to overestimate the precision of story points. Assigning powers of 2 or Fibbonacci numbers can give a reasonable approximation of the precision of story points.
+* Story points: An arbitrary unit of developer time used to measure how complex a task is. We usually approximate one story point as 30 minutes of developer effort, but it is important not to overestimate the precision of story points. Assigning powers of 2 or Fibonacci numbers can give a reasonable approximation of the precision of story points.
 
 ## Product management
 
